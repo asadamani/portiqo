@@ -22,6 +22,8 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          dark: "hsl(var(--primary-dark))",
+          light: "hsl(var(--primary-light))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -62,6 +64,22 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      backgroundImage: {
+        "gradient-primary": "var(--gradient-primary)",
+        "gradient-accent": "var(--gradient-accent)",
+        "gradient-hero": "var(--gradient-hero)",
+        "gradient-subtle": "var(--gradient-subtle)",
+      },
+      boxShadow: {
+        "custom-sm": "var(--shadow-sm)",
+        "custom-md": "var(--shadow-md)",
+        "custom-lg": "var(--shadow-lg)",
+        "glow": "var(--shadow-glow)",
+      },
+      transitionTimingFunction: {
+        "smooth": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "bounce": "cubic-bezier(0.34, 1.56, 0.64, 1)",
       },
       keyframes: {
         "accordion-down": {
