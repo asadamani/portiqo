@@ -14,7 +14,7 @@ export const CTA = () => {
             Ready to Build Your Portfolio?
           </h2>
           <p className="text-xl md:text-2xl mb-12 text-white/90">
-            Join 50,000+ designers and artists who trust Designfolio to showcase their work
+            Join 50,000+ designers and artists who trust Portion to showcase their work
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center mb-12">
