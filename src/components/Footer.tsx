@@ -13,7 +13,7 @@ export const Footer = () => {
               <div className="w-10 h-10 bg-gradient-primary rounded-xl flex items-center justify-center">
                 <Palette className="w-6 h-6 text-white" />
               </div>
-              <span className="text-xl font-bold">Portion</span>
+              <span className="text-xl font-bold">portiqo</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Build beautiful portfolios and resumes in minutes. Made for creative professionals.
@@ -55,7 +55,7 @@ export const Footer = () => {
         </div>
         
         <div className="pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>© {currentYear} Portion. All rights reserved.</p>
+          <p>© {currentYear} portiqo. All rights reserved.</p>
         </div>
       </div>
     </footer>

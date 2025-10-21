@@ -14,7 +14,7 @@ export const Header = () => {
             <div className="w-10 h-10 bg-gradient-primary rounded-xl flex items-center justify-center">
               <Palette className="w-6 h-6 text-white" />
             </div>
-            <span className="text-xl font-bold">Portion</span>
+            <span className="text-xl font-bold">portiqo</span>
           </div>
           
           {/* Desktop Navigation */}
